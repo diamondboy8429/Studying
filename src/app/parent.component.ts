@@ -11,9 +11,8 @@
 export class ParentComponent{ 
     value = 0;
     
-    changeValue(){        
-        console.log(this.value + " Num a");        
-        this.value = this.value + 0.5;     
+    changeValue(){                    
+        this.value = this.value + 1;
         console.log(this.value + " Num b");
     }
 }

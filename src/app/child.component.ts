@@ -6,9 +6,9 @@ import{ Component, EventEmitter, Output } from '@angular/core';
 })
 
 export class ChildComponent{
-    @Output() click = new EventEmitter();
+    // @Output() click = new EventEmitter();
 
-    addForParent(){
-        this.click.emit();
-    }
+    // addForParent(){
+    //     this.click.emit();
+    // }
 }
